@@ -20,8 +20,7 @@ The main objective of this project is to design and train RL agents to adjust ai
 ## Features
 
 - Simulated airfoil environment with customizable aerodynamic parameters.
-- Multiple RL algorithms (e.g., DQN, PPO, etc.) for training and comparison.
-- Visualization tools for flight trajectory and lift metrics.
+- Multiple RL algorithms (e.g., DQN) for training and comparison.
 - Benchmark scripts for reproducibility.
 
 ## Requirements
@@ -41,24 +40,6 @@ git clone https://github.com/MdSyamul/Airfoil-Lift-Control-RL.git
 cd Airfoil-Lift-Control-RL
 pip install -r requirements.txt
 ```
-
-## Usage
-
-1. **Train an RL Agent:**
-
-   ```bash
-   python train_agent.py --algo PPO --episodes 5000
-   ```
-
-2. **Evaluate or Run Simulation:**
-
-   ```bash
-   python simulate.py --model saved_model.zip
-   ```
-
-3. **Visualize Results:**
-
-   Use provided notebooks/scripts in the `visualization/` directory.
 
 ## Project Structure
 
